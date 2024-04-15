@@ -1,7 +1,0 @@
-echo "# CS-162-first-edition-" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Juggling23OrangesAtTheSameTime/CS-162-first-edition-.git
-git push -u origin main
