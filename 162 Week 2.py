@@ -8,5 +8,5 @@ explodelist = [0.0, 0.0, 0.0, 0.05]
 plot.pie(numlist, labels=namelist, autopct='%.2f%%', colors=colorlist,
 									explode=explodelist, startangle=90)
 plot.axis('equal')
-plot.text(-0.9,1.2,"Amount of Hours for Each Time of Day")
+plot.text(-0.9,1.2,"Percentage of Hours for Each Time of Day")
 plot.savefig('piechart.png')
